@@ -1,0 +1,48 @@
+import { Testimonial } from "./types";
+
+export const testimonials: Testimonial[] = [
+  {
+    id: "t1",
+    name: "Ahmed Hassan",
+    nameAr: "أحمد حسن",
+    location: "Cairo, Egypt",
+    locationAr: "القاهرة، مصر",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    text: "Exceptional service from start to finish. The resort in Ain Sokhna exceeded our expectations and the booking process was seamless. Highly recommend Zone Co for anyone looking for premium Red Sea stays.",
+    textAr: "خدمة استثنائية من البداية إلى النهاية. تجاوز المنتجع في العين السخنة توقعاتنا وكانت عملية الحجز سلسة. أوصي بشدة بزون كو لكل من يبحث عن إقامات مميزة على البحر الأحمر.",
+    rating: 5,
+  },
+  {
+    id: "t2",
+    name: "Maha El-Rashid",
+    nameAr: "مها الرشيد",
+    location: "Giza, Egypt",
+    locationAr: "الجيزة، مصر",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
+    text: "We booked a chalet at La Vista Bay for our family vacation and it was absolutely perfect. The sea views over the Gulf of Suez were stunning and the kids loved every moment. Will definitely use Zone Co again!",
+    textAr: "حجزنا شاليهًا في لافيستا باي لقضاء إجازة عائلية وكان مثاليًا تمامًا. كانت إطلالات البحر على خليج السويس خلابة وأحب الأطفال كل لحظة. سنستخدم زون كو مرة أخرى بالتأكيد!",
+    rating: 5,
+  },
+  {
+    id: "t3",
+    name: "Faisal Mostafa",
+    nameAr: "فيصل مصطفى",
+    location: "Alexandria, Egypt",
+    locationAr: "الإسكندرية، مصر",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    text: "As a frequent business traveler to the Suez economic zone, I appreciate the quality and consistency of properties on Zone Co. The Sokhna Bay Business Hotel became my go-to for every trip.",
+    textAr: "كمسافر أعمال متكرر إلى المنطقة الاقتصادية بالسويس، أقدر جودة واتساق العقارات في زون كو. أصبح فندق خليج السخنة للأعمال وجهتي المفضلة لكل رحلة.",
+    rating: 4,
+  },
+  {
+    id: "t4",
+    name: "Reem Adel",
+    nameAr: "ريم عادل",
+    location: "Cairo, Egypt",
+    locationAr: "القاهرة، مصر",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+    text: "The Ain Sokhna Hills Chalet was a magical experience. Waking up to panoramic views of the Gulf of Suez and stargazing at night was unforgettable. Zone Co curates truly unique properties.",
+    textAr: "كانت تجربة شاليه تلال العين السخنة ساحرة. الاستيقاظ على إطلالات بانورامية لخليج السويس ومراقبة النجوم ليلاً كان لا يُنسى. زون كو تختار عقارات فريدة حقًا.",
+    rating: 5,
+  },
+];
