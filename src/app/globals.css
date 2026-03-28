@@ -6,6 +6,7 @@
   :root {
     --primary: 13 116 110;
     --primary-foreground: 255 255 255;
+    --radius: 0.5rem;
   }
 
   * {
